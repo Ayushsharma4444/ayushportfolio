@@ -19,3 +19,7 @@ Link li{
   color: white !important;
   text-decoration: none;
 }
+
+::-webkit-scrollbar {
+  width: 1px;
+}
