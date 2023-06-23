@@ -1,0 +1,29 @@
+.social-media-button{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1.5rem;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.linkedIn{
+    width: 70px;
+}
+.linkedIn img{
+    width: 100%;
+    cursor: pointer;
+}
+.instagram img{
+    width: 40px;
+    margin-bottom: 1rem;
+}
+.github img{
+    width: 50px;
+}
+.findme{
+    font-size: large;
+    font-weight: 600;
+    color: #ff0150;
+}

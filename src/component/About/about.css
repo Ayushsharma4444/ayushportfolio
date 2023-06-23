@@ -1,0 +1,61 @@
+.about-container{
+    display: flex;
+    justify-content: space-around;
+  
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    margin: 5rem 0 0 0 ;
+}
+.rightAbout b{
+    color: #f72064d5;
+}
+h1{
+    color: #ff0150;
+}
+.leftAbout{
+    display: flex;
+    align-items: center;
+    
+}
+.rightAbout{
+    /* width: 500px; */
+    font-size: 1.3rem;
+    word-spacing: 3px;
+    color: rgb(166, 163, 163);
+    margin: 2rem 0;
+}
+.btech-container span{
+    color: skyblue;
+}
+.polytechnic span{
+    color: skyblue;
+}
+.education-details{
+    margin-left: 4rem;
+}
+.roles{
+    color: skyblue;
+}
+.roles-container{
+    margin-left: 4rem;
+}
+.interest-container{
+    color: skyblue;
+    margin-left: 4rem;
+}
+
+.downAbout-1,.downAbout-2,.downAbout-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.experience{
+    width: 450px;
+}
+.downAbout{
+    margin-top: 5rem;
+}
+li{
+    list-style: circle;
+
+}

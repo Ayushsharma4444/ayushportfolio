@@ -1,0 +1,28 @@
+.my-image{
+    height: 400px;
+    width: 350px;
+    box-shadow: lightgrey 0 5px 10px;
+}
+.my-image img{
+    height: 390px;
+    width: 100%!important;
+    /* filter: brightness(0.5); */
+    margin: 0 0 0 -110px;
+}
+
+.aboutme-img{
+    width: 350px;
+    box-shadow: lightgray 5px 5px 10px;
+    /* padding: 2rem; */
+}
+.aboutme-img img{
+    width: 80%;
+}
+.Description{
+    width: 550px;
+}
+.resume-about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

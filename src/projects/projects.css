@@ -1,0 +1,69 @@
+.allprojects{
+    /* height: 100vh; */
+    /* overflow: scroll; */
+}
+.resume-image{
+    width: 400px;
+}
+.resume-image img{
+    width:100% ;
+    border-radius: 5%;
+}
+.resume-builder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+.heading span{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ff0150;
+}
+.description{
+    /* width: 550px; */
+    padding: 1rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.buttons button{
+    padding: 1rem;
+    width: 150px;
+    background-color: #ff0150;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+button:hover{
+    /* background-color: white; */
+    /* color: #ff0150; */
+   
+}
+hr{
+    color: lightgrey;
+    margin-top: 2rem;
+}
+
+
+.project-container{
+    margin: 5rem 0;
+    /* height: 80vh; */
+    /* overflow: scroll; */
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button,a:hover{
+    /* color: #ff0150; */
+}

@@ -1,0 +1,37 @@
+.features-container{
+    margin: 5rem 0;
+}
+
+.box-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2.25rem;
+    justify-content: center;
+}
+.features h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.features span{
+    color: #ff014f;
+
+}
+.box{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: rgb(70, 70, 70) 0 7px 18px 5px;
+    height: 250px;
+    background-color: #202327;
+    padding: 1.5rem;
+    overflow: auto;
+}
+
+.box span{
+    font-size: 1.3rem;
+    
+    font-weight: 700;
+    color: #ff014f;
+}
+.box small{
+    /* padding: 3rem; */
+}

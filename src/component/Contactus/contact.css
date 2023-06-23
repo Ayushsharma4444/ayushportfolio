@@ -1,0 +1,104 @@
+.contactus{
+    background-color: black;
+    color: white;
+    /* height: 100vh; */
+}
+
+
+.contact-heading h1{
+ font-size:4rem ;
+ text-align: center;
+}
+.contact-heading span{
+    color: #ff0150;
+}
+
+.dial-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem;
+}
+.phone-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.phone-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 350px;
+}
+.phone-number{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    font-weight: 900;
+}
+.phone-text{
+     padding:  1rem;
+     text-align: center;
+     /* width: 250px; */
+     /* margin: auto; */
+}
+.form_image {
+    width: 250px;
+}
+.form_image img{
+    width: 100%;
+    filter: brightness( 67% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.form-input{
+    width: 550px;
+    display: flex;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form-group input,textarea{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 1rem 0 0 0;
+    border-top: none; 
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 1rem;
+    /* border: none none 1px none; */
+}
+form button{
+    width:150px;
+    padding: 1rem;
+    background: #ff0150;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+textarea{
+    overflow: hidden;
+}
+form button:hover{
+    /* background-color: white; */
+
+}
+.form_image img:hover{
+    filter: none;
+}
