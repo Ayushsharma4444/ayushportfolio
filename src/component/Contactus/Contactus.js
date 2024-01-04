@@ -68,14 +68,14 @@ const Contactus = () => {
           </div>
         </div>
 
-        // <div className="form">
-        //   <div className="form_image">
-        //     <img src={pic} />
-        //   </div>
-        //   <div className="form-input py-4">
-        //     {/* <!-- Container for demo purpose --> */}
-        //     <div class="container " style={{width:'100%'}}>
-        //       {/* <!-- Section: Design Block --> */}
+        <div className="form">
+          <div className="form_image">
+            <img src={pic} />
+          </div>
+          <div className="form-input py-4">
+            {/* <!-- Container for demo purpose --> */}
+            <div class="container " style={{width:'100%'}}>
+              {/* <!-- Section: Design Block --> */}
         //       <section class="mb-32 text-center text-gray-800">
         //         <div class="max-w-[700px]  px-3 lg:px-6">
         //           <form>
@@ -174,11 +174,11 @@ const Contactus = () => {
         //           </form>
         //         </div>
         //       </section>
-        //       {/* <!-- Section: Design Block --> */}
-        //     </div>
+               {/* <!-- Section: Design Block --> */}
+             </div>
             {/* <!-- Container for demo purpose --> */}
-        //   </div>
-        // </div>
+           </div>
+         </div>
       </div>
       <Footer/>
     </>
